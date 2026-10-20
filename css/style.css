@@ -4,6 +4,16 @@
     --licht: #f4f1de;
     --donker: #1d3557;
     --tekst: #333333;
+    --kaart: #ffffff;
+}
+
+/* Les 2: dark mode */
+body.dark {
+    --primair: #5fa8d3;
+    --licht: #1b1b1f;
+    --donker: #0d1b2a;
+    --tekst: #e8e8e8;
+    --kaart: #2a2a30;
 }
 
 * {
@@ -110,6 +120,9 @@ h2 {
     border-radius: 6px;
     text-decoration: none;
     display: inline-block;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .knop-2 {
@@ -119,6 +132,9 @@ h2 {
     border-radius: 6px;
     text-decoration: none;
     display: inline-block;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .knop-3 {
@@ -128,6 +144,9 @@ h2 {
     border-radius: 6px;
     text-decoration: none;
     display: inline-block;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .knop-1:hover {
